@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f5e9; /* Verde más vivo */
+}
+
+/* Header Styles */
+header {
+    background: #388e3c; /* Verde más vivo */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #1b5e20; /* Verde oscuro */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    text-align: center;
+    color: #2e7d32; /* Verde */
+    margin-bottom: 20px;
+}
+
+#plant-info p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    text-align: center; /* Centrar el texto */
+}
+
+/* Gallery Container */
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-container div {
+    flex: 1 1 calc(50% - 40px);
+    box-sizing: border-box;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.gallery-container img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.gallery-container h4 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #4CAF50; /* Verde */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #388e3c; /* Verde más vivo */
+    color: #fff;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Intro Section Styles */
+.intro-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre imágenes */
+    margin-top: 20px;
+}
+
+.intro-images img {
+    max-width: 45%; /* Ajusta el tamaño de la imagen para que quepan al lado de la otra */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+/* Plant List Styles */
+#plant-list {
+    columns: 2; /* Divide la lista en dos columnas */
+    column-gap: 20px; /* Espacio entre columnas */
+}
+
+#plant-list li {
+    margin-bottom: 10px;
+    font-style: italic; /* Estilo itálico para nombres científicos */
+}
+
+#plant-list a {
+    color: #1b5e20; /* Verde oscuro para los enlaces */
+    text-decoration: none; /* Sin subrayado para los enlaces */
+}
+
+#plant-list a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón por encima */
+}
